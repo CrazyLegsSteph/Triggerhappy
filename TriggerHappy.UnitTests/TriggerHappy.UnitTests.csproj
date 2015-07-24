@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="TerrariaServer">
-      <HintPath>..\..\Wolfje.Plugins\BuildReferences\TerrariaServer\APIVersion1.15\TerrariaServer.exe</HintPath>
+      <HintPath>..\..\505\TerrariaServer.exe</HintPath>
     </Reference>
   </ItemGroup>
   <Choose>

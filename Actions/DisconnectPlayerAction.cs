@@ -23,7 +23,7 @@ namespace TriggerHappy {
                 return;
             }
 
-            Terraria.NetMessage.SendData((int)PacketTypes.Disconnect, player.whoAmi, text: "");
+            Terraria.NetMessage.SendData((int)PacketTypes.Disconnect, player.whoAmI, text: "");
         }
 
         #endregion

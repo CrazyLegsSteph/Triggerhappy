@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace TriggerHappy {
 
-    [ApiVersion(1, 15)]
+    [TerrariaApi.Server.ApiVersion(1, 20)]
     public class TriggerHappyPlugin : TerrariaPlugin {
         internal ChainLoader chainLoader = null;
         internal bool enabled = true;
